@@ -86,6 +86,46 @@ components:
           - productId: 649876543210987654322
             quantity: 1
 
+    Order:
+      type: object
+      properties:
+        id:
+          type: string
+        userId:
+          type: string
+        products:
+          type: array
+          items:
+            type: object
+            properties:
+              productId:
+                type: string
+              quantity:
+                type: integer
+        totalPrice:
+          type: number
+        status:
+          type: string
+          enum: [pending, confirmed, shipped, delivered, cancelled]
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      example:
+        id: 649876543210987654321
+        userId: 649876543210987654321
+        products:
+          - productId: 649876543210987654321
+            quantity: 2
+          - productId: 649876543210987654322
+            quantity: 1
+        totalPrice: 100
+        status: pending
+        createdAt: 2024-05-12T16:18:04.793Z
+        updatedAt: 2024-05-12T16:18:04.793Z
+
   responses:
     DuplicateEmail:
       description: Email already taken
