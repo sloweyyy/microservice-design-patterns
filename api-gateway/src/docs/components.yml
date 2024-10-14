@@ -19,6 +19,20 @@ components:
         name: fake name
         role: user
 
+    Product:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+        imageUrl:
+          type: string
+          
     Token:
       type: object
       properties:
