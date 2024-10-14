@@ -26,10 +26,10 @@ components:
           type: string
         name:
           type: string
-        description:
-          type: string
         price:
           type: number
+        description:
+          type: string
         imageUrl:
           type: string
           
@@ -60,6 +60,31 @@ components:
           type: number
         message:
           type: string
+
+    Cart:
+      type: object
+      properties:
+        id:
+          type: string
+        userId:
+          type: string
+        products:
+          type: array
+          items:
+            type: object
+            properties:
+              productId:
+                type: string
+              quantity:
+                type: integer
+      example:
+        id: 649876543210987654321
+        userId: 649876543210987654321
+        products:
+          - productId: 649876543210987654321
+            quantity: 2
+          - productId: 649876543210987654322
+            quantity: 1
 
   responses:
     DuplicateEmail:
