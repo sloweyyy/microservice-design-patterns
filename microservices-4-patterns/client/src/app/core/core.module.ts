@@ -8,27 +8,30 @@ import { ServerErrorComponent } from './server-error/server-error.component';
 import { HeaderComponent } from './header/header.component';
 import { BreadcrumbModule } from 'xng-breadcrumb';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
   declarations: [
-      NavbarComponent,
-      NotFoundComponent,
-      UnAuthenticatedComponent,
-      ServerErrorComponent,
-      HeaderComponent
-    ],
+    NavbarComponent,
+    NotFoundComponent,
+    UnAuthenticatedComponent,
+    ServerErrorComponent,
+    HeaderComponent,
+    FooterComponent
+  ],
   imports: [
     CommonModule,
     RouterModule,
     BreadcrumbModule,
     NgxSpinnerModule
   ],
-  exports:[
+  exports: [
     NavbarComponent,
     HeaderComponent,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    FooterComponent
   ]
 })
 export class CoreModule { }
