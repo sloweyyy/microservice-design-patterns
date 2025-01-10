@@ -13,9 +13,10 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     SharedModule
   ],
-  exports:[
+  exports: [
     HomeComponent,
     SharedModule
-  ]
+  ],
+  bootstrap: [HomeComponent]
 })
 export class HomeModule { }

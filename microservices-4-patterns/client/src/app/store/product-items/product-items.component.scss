@@ -1,3 +1,37 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  height: 100%;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+}
+
+.card-body {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.card .card-text {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.card .card-currency {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
 .btn {
   width: 30%;
   height: 40px;
@@ -5,9 +39,10 @@
 
 .image :hover {
   opacity: 1;
+
   & button {
-      transform: none;
-      opacity: 1;
+    transform: none;
+    opacity: 1;
   }
 }
 
@@ -17,20 +52,19 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0.5);
   opacity: 0;
   transition: all 0.5s;
 
   & button {
-      z-index: 1000;
-      transition: all 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
   }
 
   & button:first-of-type {
-      transform: translateX(-20px);
+    transform: translateX(-20px);
   }
 
   & button:last-of-type {
-      transform: translateX(20px);
+    transform: translateX(20px);
   }
 }
