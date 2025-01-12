@@ -1,9 +1,8 @@
 ﻿using Catalog.Core.Entities;
 
-namespace Catalog.Core.Repositories
+namespace Catalog.Core.Repositories;
+
+public interface ITypesRepository
 {
-    public interface ITypesRepository
-    {
-        Task<IEnumerable<ProductType>> GetAllTypes();
-    }
+    Task<IEnumerable<ProductType>> GetAllTypes();
 }

@@ -1,14 +1,14 @@
 ﻿using MediatR;
 using Ordering.Application.Responses;
 
-namespace Ordering.Application.Queries
+namespace Ordering.Application.Queries;
+
+public class GetOrderListQuery : IRequest<List<OrderResponse>>
 {
-    public class GetOrderListQuery : IRequest<List<OrderResponse>>
+    public string UserName { get; set; }
+
+    public GetOrderListQuery(string userName)
     {
-        public string UserName { get; set; }
-        public GetOrderListQuery(string userName)
-        {
-            UserName = userName;
-        }
+        UserName = userName;
     }
 }

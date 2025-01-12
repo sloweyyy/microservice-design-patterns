@@ -33,20 +33,18 @@ var app = builder.Build();
 app.MigrateDatabase<Program>();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-}
+if (app.Environment.IsDevelopment()) app.UseDeveloperExceptionPage();
 
 app.UseRouting();
 
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapGrpcService<DiscountService>();
-    endpoints.MapGet("/", async context =>
-    {
-        await context.Response.WriteAsync("Communication with grpc endpoints must be made through a grpc client");
-    });
+    endpoints.MapGet("/",
+        async context =>
+        {
+            await context.Response.WriteAsync("Communication with grpc endpoints must be made through a grpc client");
+        });
 });
 
 app.Run();
