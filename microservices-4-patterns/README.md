@@ -40,13 +40,13 @@ Follow these steps to get your development environment set up: (Before Run Start
 1. Clone the repository:
 
   ```bash
-  git clone https://github.com/sloweyyy/eCommerce-.net-core-microservices.git
+  git clone https://github.com/sloweyyy/microservice-design-patterns
   ```
 
 2. Change the directory:
 
   ```bash
-  cd eCommerce-.net-core-microservices
+  cd microservice-design-patterns/microservices-4-patterns
   ```
 
 3. Once Docker for Desktop is installed, go to the **Settings > Advanced option**, from the Docker icon in the system tray, to configure the minimum amount of memory and CPU like so:

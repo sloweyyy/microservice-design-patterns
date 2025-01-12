@@ -6,32 +6,34 @@ using Basket.Core.Entities;
 using MediatR;
 using Basket.Application.GrpcService;
 
-namespace Basket.Application.Handlers
-{
-    public class CreateShoppingCartCommandHandler : IRequestHandler<CreateShoppingCartCommand, ShoppingCartResponse>
-    {
-        private readonly IBasketRepository _basketRepository;
-        private readonly DiscountGrpcService _discountGrpcService;
+namespace Basket.Application.Handlers;
 
-        public CreateShoppingCartCommandHandler(IBasketRepository basketRepository, DiscountGrpcService discountGrpcService)
+public class CreateShoppingCartCommandHandler : IRequestHandler<CreateShoppingCartCommand, ShoppingCartResponse>
+{
+    private readonly IBasketRepository _basketRepository;
+    private readonly DiscountGrpcService _discountGrpcService;
+
+    public CreateShoppingCartCommandHandler(IBasketRepository basketRepository, DiscountGrpcService discountGrpcService)
+    {
+        _basketRepository = basketRepository;
+        _discountGrpcService = discountGrpcService;
+    }
+
+    public async Task<ShoppingCartResponse> Handle(CreateShoppingCartCommand request,
+        CancellationToken cancellationToken)
+    {
+        foreach (var item in request.Items)
         {
-            _basketRepository = basketRepository;
-            _discountGrpcService = discountGrpcService;
+            var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
+            item.Price -= coupon.Amount;
         }
-        public async Task<ShoppingCartResponse> Handle(CreateShoppingCartCommand request, CancellationToken cancellationToken)
+
+        var shoppingCart = await _basketRepository.UpdateBasket(new ShoppingCart
         {
-            foreach (var item in request.Items) 
-            {
-                var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
-                item.Price -= coupon.Amount;
-            }
-            var shoppingCart = await _basketRepository.UpdateBasket(new ShoppingCart
-            {
-                UserName = request.UserName,
-                Items = request.Items
-            });
-            var shoppingCartResponse = BasketMapper.Mapper.Map<ShoppingCartResponse>(shoppingCart);
-            return shoppingCartResponse;
-        }
+            UserName = request.UserName,
+            Items = request.Items
+        });
+        var shoppingCartResponse = BasketMapper.Mapper.Map<ShoppingCartResponse>(shoppingCart);
+        return shoppingCartResponse;
     }
 }

@@ -13,10 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 //Add Cors
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("CorsPolicy", policy =>
-    {
-        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
-    });
+    options.AddPolicy("CorsPolicy", policy => { policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin(); });
 });
 
 //Serilog configuration
@@ -34,7 +31,10 @@ builder.Services.AddApiVersioning(options =>
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Catalog.API", Version = "v1" }); });
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Catalog.API", Version = "v1" });
+});
 
 //Register AutoMapper
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
@@ -43,7 +43,7 @@ builder.Services.AddAutoMapper(typeof(Program).Assembly);
 var assemblies = new Assembly[]
 {
     Assembly.GetExecutingAssembly(),
-    typeof(GetAllBrandsHandler).Assembly 
+    typeof(GetAllBrandsHandler).Assembly
 };
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 
@@ -62,6 +62,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseCors("CorsPolicy");
 app.UseAuthorization();
 

@@ -17,10 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 //Add Cors
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("CorsPolicy", policy =>
-    {
-        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
-    });
+    options.AddPolicy("CorsPolicy", policy => { policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin(); });
 });
 
 // Serilog configuration
@@ -30,16 +27,16 @@ builder.Services.AddControllers();
 
 // Add API Versioning and API Explorer for Swagger
 builder.Services.AddApiVersioning(options =>
-{
-    options.ReportApiVersions = true;
-    options.AssumeDefaultVersionWhenUnspecified = true;
-    options.DefaultApiVersion = new ApiVersion(1, 0);
-})
-.AddApiExplorer(options =>
-{
-    options.GroupNameFormat = "'v'VVV";
-    options.SubstituteApiVersionInUrl = true;
-});
+    {
+        options.ReportApiVersions = true;
+        options.AssumeDefaultVersionWhenUnspecified = true;
+        options.DefaultApiVersion = new ApiVersion(1, 0);
+    })
+    .AddApiExplorer(options =>
+    {
+        options.GroupNameFormat = "'v'VVV";
+        options.SubstituteApiVersionInUrl = true;
+    });
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -51,18 +48,12 @@ builder.Services.AddSwaggerGen(c =>
     // Include XML comments if you have them
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    if (File.Exists(xmlPath))
-    {
-        c.IncludeXmlComments(xmlPath);
-    }
+    if (File.Exists(xmlPath)) c.IncludeXmlComments(xmlPath);
 
     // Configure Swagger to use the versioning
     c.DocInclusionPredicate((version, apiDescription) =>
     {
-        if (!apiDescription.TryGetMethodInfo(out var methodInfo))
-        {
-            return false;
-        }
+        if (!apiDescription.TryGetMethodInfo(out var methodInfo)) return false;
 
         var versions = methodInfo.DeclaringType?
             .GetCustomAttributes(true)
@@ -98,10 +89,7 @@ builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
 
 builder.Services.AddMassTransit(config =>
 {
-    config.UsingRabbitMq((ct, cfg) =>
-    {
-        cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
-    });
+    config.UsingRabbitMq((ct, cfg) => { cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]); });
 });
 builder.Services.AddMassTransitHostedService();
 
@@ -118,6 +106,7 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v2/swagger.json", "Basket.API v2");
     });
 }
+
 app.UseCors("CorsPolicy");
 app.UseAuthorization();
 

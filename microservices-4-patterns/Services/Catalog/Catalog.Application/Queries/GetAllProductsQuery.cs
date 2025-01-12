@@ -2,15 +2,14 @@
 using Catalog.Core.Specs;
 using MediatR;
 
-namespace Catalog.Application.Queries
+namespace Catalog.Application.Queries;
+
+public class GetAllProductsQuery : IRequest<Pagination<ProductResponse>>
 {
-    public class GetAllProductsQuery : IRequest<Pagination<ProductResponse>>
+    public CatalogSpecParams CatalogSpecParams { get; set; }
+
+    public GetAllProductsQuery(CatalogSpecParams catalogSpecParams)
     {
-        public CatalogSpecParams CatalogSpecParams { get; set; }
-        public GetAllProductsQuery(CatalogSpecParams catalogSpecParams)
-        {
-            CatalogSpecParams = catalogSpecParams;
-        }
-        
+        CatalogSpecParams = catalogSpecParams;
     }
 }

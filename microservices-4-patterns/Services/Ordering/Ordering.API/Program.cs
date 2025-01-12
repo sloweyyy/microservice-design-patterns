@@ -15,10 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 //Add Cors
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("CorsPolicy", policy =>
-    {
-        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
-    });
+    options.AddPolicy("CorsPolicy", policy => { policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin(); });
 });
 
 
@@ -46,7 +43,10 @@ builder.Services.AddScoped<BasketOrderingConsumerV2>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Ordering.API", Version = "v1" }); });
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Ordering.API", Version = "v1" });
+});
 
 //Mass Transit
 builder.Services.AddMassTransit(config =>
@@ -58,15 +58,11 @@ builder.Services.AddMassTransit(config =>
     {
         cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
         //provide the queue name with cosumer settings
-        cfg.ReceiveEndpoint(EventBusConstant.BasketCheckoutQueue, c =>
-        {
-            c.ConfigureConsumer<BasketOrderingConsumer>(ctx);
-        });
+        cfg.ReceiveEndpoint(EventBusConstant.BasketCheckoutQueue,
+            c => { c.ConfigureConsumer<BasketOrderingConsumer>(ctx); });
         //V2 Version
-        cfg.ReceiveEndpoint(EventBusConstant.BasketCheckoutQueueV2, c =>
-        {
-            c.ConfigureConsumer<BasketOrderingConsumerV2>(ctx);
-        });
+        cfg.ReceiveEndpoint(EventBusConstant.BasketCheckoutQueueV2,
+            c => { c.ConfigureConsumer<BasketOrderingConsumerV2>(ctx); });
     });
 });
 builder.Services.AddMassTransitHostedService();
@@ -86,6 +82,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseCors("CorsPolicy");
 app.UseAuthorization();
 

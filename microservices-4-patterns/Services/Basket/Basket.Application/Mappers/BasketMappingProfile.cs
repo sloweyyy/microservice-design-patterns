@@ -4,16 +4,15 @@ using Basket.Core.Entities;
 using EventBus.Messages.Common;
 using EventBus.Messages.Events;
 
-namespace Basket.Application.Mappers
+namespace Basket.Application.Mappers;
+
+public class BasketMappingProfile : Profile
 {
-    public class BasketMappingProfile : Profile
+    public BasketMappingProfile()
     {
-        public BasketMappingProfile()
-        {
-            CreateMap<ShoppingCart, ShoppingCartResponse>().ReverseMap();
-            CreateMap<ShoppingCartItem, ShoppingCartItemResponse>().ReverseMap();
-            CreateMap<BasketCheckout, BasketCheckoutEvent>().ReverseMap();
-            CreateMap<BasketCheckoutV2, BasketCheckoutEventV2>().ReverseMap();
-        }
+        CreateMap<ShoppingCart, ShoppingCartResponse>().ReverseMap();
+        CreateMap<ShoppingCartItem, ShoppingCartItemResponse>().ReverseMap();
+        CreateMap<BasketCheckout, BasketCheckoutEvent>().ReverseMap();
+        CreateMap<BasketCheckoutV2, BasketCheckoutEventV2>().ReverseMap();
     }
 }
