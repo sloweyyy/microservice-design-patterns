@@ -1,81 +1,152 @@
-# .NET Core Microservices
-This repository contains a sample project that demonstrates how to build microservices using .NET Core. The project is a simple e-commerce application that consists of multiple microservices. Each microservice is a separate project that can be developed, tested, and deployed independently. The microservices communicate with each other using HTTP and RabbitMQ.
+# .NET Core Microservices E-commerce Project
+
+## Overview
+
+A comprehensive e-commerce solution built using microservices architecture with .NET Core. This project demonstrates enterprise-level application development using modern architecture patterns, containerization, and cloud-native practices.
 
 ## Architecture
-The application consists of the following microservices:
 
-- **Catalog.API**: Provides APIs for managing products.
-- **Basket.API**: Provides APIs for managing shopping carts.
-- **Discount.API**: Provides APIs for managing discounts.
-- **Ordering.API**: Provides APIs for managing orders.
-- **Payment.API**: Provides APIs for processing payments.
-- **WebMVC**: A web application that consumes the microservices.
+The application implements a microservices architecture with the following components:
 
-## How Project is structured 
+### Core Microservices
 
-Below, I have Pasted the high level glimpse project structure.
+- **Catalog.API**: Product catalog management
+  - MongoDB database
+  - CRUD operations for products
+  - Category and brand management
+  
+- **Basket.API**: Shopping cart service
+  - Redis cache implementation
+  - Cart operations
+  - Discount integration
+  
+- **Discount.API**: Discount management
+  - PostgreSQL database
+  - Coupon system
+  - Discount rules
+  
+- **Ordering.API**: Order processing
+  - SQL Server database
+  - Order management
+  - Payment integration
+  - Event-driven operations
 
-![image](https://github.com/user-attachments/assets/aa16083b-d89d-4974-862d-1a2d8dc6c373)
+### Infrastructure Components
+- **Ocelot API Gateway**: Single entry point for clients
+- **EventBus.Messages**: Message broker integration
+- **Common.Logging**: Centralized logging
 
-Client Structure goes like
+## Technical Stack
 
-![image](https://user-images.githubusercontent.com/3886381/223711577-17c37c86-35b4-424c-8c27-79f40317ac77.png)
+### Backend
 
-## Deployments
+- .NET Core 8.0
+- Clean Architecture
+- CQRS Pattern
+- Entity Framework Core
+- Dapper
+- AutoMapper
 
-![image](https://user-images.githubusercontent.com/3886381/223712628-2abbd0f1-ec32-4158-a9b2-842aed0f1096.png)
+### Databases
 
-## How to run the application
+- MongoDB
+- Redis
+- PostgreSQL
+- MS SQL Server
 
-To run the application, you need to have the following tools installed on your machine:
+### Message Broker
 
-- [.NET Core SDK](https://dotnet.microsoft.com/download)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- RabbitMQ
 
-You can run the application using the following steps:
+### Monitoring & Logging
 
-### Installation
-Follow these steps to get your development environment set up: (Before Run Start the Docker Desktop)
+- Elasticsearch
+- Kibana
+- Common.Logging
+
+### Containerization
+
+- Docker
+- Docker Compose
+- Kubernetes configs
+
+## Setup Instructions
+
+### Prerequisites
+
+- .NET Core SDK 8.0
+- Docker Desktop
+- Node.js (for client application)
+
+### Development Environment Setup
 
 1. Clone the repository:
 
-  ```bash
-  git clone https://github.com/sloweyyy/microservice-design-patterns
-  ```
+   ```bash
+   git clone https://github.com/sloweyyy/microservice-design-patterns.git
+   cd microservice-design-patterns
+   ```
 
-2. Change the directory:
+2. Configure Docker resources:
 
-  ```bash
-  cd microservice-design-patterns/microservices-4-patterns
-  ```
+   ```bash
+   docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+   ```
 
-3. Once Docker for Desktop is installed, go to the **Settings > Advanced option**, from the Docker icon in the system tray, to configure the minimum amount of memory and CPU like so:
-  * **Memory: 7 GB**
-  * **CPU: 5**
+   - **Memory**: Minimum 7GB
+   - **CPU**: Minimum 5 cores
 
-4. At the root directory which includes **docker-compose.yml** files, run the below command:
+3. Start infrastructure services:
 
-  ```
-  docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
-  ```
+   ```bash
+   docker-compose up
+   ```
 
-5. Wait for docker compose to pull the required images and run the containers. You can check the status of the running containers using the below command:
+## Service URLs
 
-  ```
-  docker ps
-  ```
+- **Catalog API**: [http://localhost:8000/swagger](http://localhost:8000/swagger)
+- **Basket API**: [http://localhost:8001/swagger](http://localhost:8001/swagger)
+- **Discount API**: [http://localhost:8002/swagger](http://localhost:8002/swagger)
+- **Ordering API**: [http://localhost:8003/swagger](http://localhost:8003/swagger)
+- **API Gateway**: [http://localhost:8010/swagger](http://localhost:8010/swagger)
 
-6. Once the containers are up and running, you can browse the microservices from the below URLs:
-  
-    * **Catalog API**: http://localhost:8000/swagger/index.html
-    * **Basket API**: http://localhost:8001/swagger/index.html
+## Monitoring Tools
 
-7. To run web application, navigate to the `client` directory and run the following command:
-  
-    ```
-    npm install
-    npm run start
-    ```
+- **Kibana**: [http://localhost:5601](http://localhost:5601)
+- **Elasticsearch**: [http://localhost:9200](http://localhost:9200)
+- **RabbitMQ**: [http://localhost:15672](http://localhost:15672)
+- **Portainer**: [http://localhost:9000](http://localhost:9000)
 
-8. Once the application is running, you can access it from the browser at http://localhost:4200/.
+## Project Structure
 
+```plaintext
+├── ApiGateways/
+│   └── Ocelot.ApiGateway/
+├── Services/
+│   ├── Catalog/
+│   ├── Basket/
+│   ├── Discount/
+│   └── Ordering/
+├── Infrastructure/
+│   ├── EventBus.Messages/
+│   └── Common.Logging/
+└── Deployments/
+    ├── helm/
+    └── k8s/
+    └── istio/
+```
+
+## Design Patterns Used
+
+- Microservices Architecture
+- CQRS
+- Event Sourcing
+- Repository Pattern
+- Unit of Work
+- Factory Pattern
+- Builder Pattern
+- Dependency Injection
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
