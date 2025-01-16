@@ -41,4 +41,28 @@ export class HomeComponent implements AfterViewInit {
     const offset = -this.currentIndex * 100;
     carousel.style.transform = `translateX(${offset}%)`;
   }
+
+  toggleFaq(event: MouseEvent) {
+    const element = event.currentTarget as HTMLElement;
+    const answer = element.nextElementSibling as HTMLElement;
+
+    const isActive = element.classList.contains('active');
+
+    document.querySelectorAll('.faq-question').forEach((question) => {
+      question.classList.remove('active');
+      const sibling = question.nextElementSibling as HTMLElement;
+      sibling.style.maxHeight = '0';
+      sibling.style.padding = '0 20px';
+    });
+
+    if (!isActive) {
+      element.classList.add('active');
+      answer.style.maxHeight = `100px`;
+      answer.style.padding = '10px 20px';
+    } else {
+      element.classList.remove('active');
+      answer.style.maxHeight = '0';
+      answer.style.padding = '0 20px';
+    }
+  }
 }
