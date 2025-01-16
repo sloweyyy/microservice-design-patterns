@@ -1,562 +1,498 @@
 [
   {
-    "Id" : "602d2149e773f2a3990b47f5",
-    "Name": "Adidas Quick Force Indoor Badminton Shoes",
-    "Description": "Designed for professional as well as amateur badminton players. These indoor shoes are crafted with synthetic upper that provides natural fit, while the EVA midsole provides lightweight cushioning. The shoes can be used for Badminton and Squash",
+    "Id": "602d2149e773f2a3990b47f5",
+    "Name": "Acer Predator Helios 300 Gaming Laptop",
+    "Description": "Dominate the game with the Acer Predator Helios 300. Featuring powerful Intel Core processors and NVIDIA GeForce RTX graphics, this laptop delivers exceptional gaming performance. Its advanced cooling system ensures smooth and stable gameplay even during intense sessions.",
     "Price": 3500,
-    "ImageFile": "images/products/adidas_shoe-1.png",
-    "Summary": "Adidas Quick Force Indoor Badminton Shoes",
+    "ImageFile": "images/products/acer_helios_300_1.png",
+    "Summary": "Powerful gaming laptop from Acer's Predator series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e40e0aa3968b549af53",
-      "Name": "Adidas"
-    }    
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "ACER"
+    }
   },
   {
-    "Id" : "602d2149e773f2a3990b47f6",
-    "Name": "Adidas Quick Force Indoor Badminton Shoes",
-    "Description": "Designed for professional as well as amateur badminton players. These indoor shoes are crafted with synthetic upper that provides natural fit, while the EVA midsole provides lightweight cushioning. The shoes can be used for Badminton and Squash",
+    "Id": "602d2149e773f2a3990b47f6",
+    "Name": "Acer Nitro 5 Gaming Laptop",
+    "Description": "Experience immersive gaming with the Acer Nitro 5. Equipped with an AMD Ryzen processor and dedicated NVIDIA GeForce graphics, this laptop offers a balanced performance for both gaming and everyday tasks. The vibrant display and immersive audio further enhance your gaming experience.",
     "Price": 3375,
-    "ImageFile": "images/products/adidas_shoe-2.png",
-    "Summary": "Adidas Quick Force Indoor Badminton Shoes",
+    "ImageFile": "images/products/acer_nitro_5_1.png",
+    "Summary": "Versatile gaming laptop from Acer's Nitro series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e40e0aa3968b549af53",
-      "Name": "Adidas"
-    } 
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "ACER"
+    }
   },
   {
-    "Id" : "602d2149e773f2a3990b47f7",
-    "Name": "Adidas Quick Force Indoor Badminton Shoes",
-    "Description": "Designed for professional as well as amateur badminton players. These indoor shoes are crafted with synthetic upper that provides natural fit, while the EVA midsole provides lightweight cushioning. The shoes can be used for Badminton and Squash",
+    "Id": "602d2149e773f2a3990b47f7",
+    "Name": "Acer Chromebook Spin 713",
+    "Description": "The Acer Chromebook Spin 713 combines performance and portability. Powered by an Intel Core processor and featuring a 2-in-1 design, this Chromebook is perfect for productivity on the go. Its vibrant touchscreen and long battery life make it an ideal companion for work and play.",
     "Price": 3375,
-    "ImageFile": "images/products/adidas_shoe-3.png",
-    "Summary": "Adidas Quick Force Indoor Badminton Shoes",
+    "ImageFile": "images/products/acer_chromebook_spin_713_1.png",
+    "Summary": "Flexible and portable Chromebook from Acer.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e40e0aa3968b549af53",
-      "Name": "Adidas"
-    } 
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "ACER"
+    }
   },
   {
-    "Id" : "602d2149e773f2a3990b47f8",
-    "Name": "Asics Gel Rocket 8 Indoor Court Shoes",
-    "Description": "The Asics Gel Rocket 8 Indoor Court Shoes (Orange/Silver) will keep you motivated and fired up to perform at your peak in volleyball, squash and other indoor sports. Beginner and intermediate players get cutting-edge technologies at an affordable price point.This entry level all-rounder has a durable upper and offers plenty of stability.",
+    "Id": "602d2149e773f2a3990b47f8",
+    "Name": "ASUS ROG Zephyrus G14 Gaming Laptop",
+    "Description": "The ASUS ROG Zephyrus G14 delivers powerful gaming performance in a sleek and portable design. Equipped with an AMD Ryzen processor and NVIDIA GeForce RTX graphics, it's perfect for gamers on the move. The vibrant display and impressive audio provide an immersive gaming experience.",
     "Price": 4249,
-    "ImageFile": "images/products/asics_shoe-1.png",
-    "Summary": "Asics Gel Rocket 8 Indoor Court Shoes",
+    "ImageFile": "images/products/asus_rog_zephyrus_g14_1.png",
+    "Summary": "High-performance and portable gaming laptop from ASUS ROG.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e4c455900b990b43bc1",
-      "Name": "ASICS"
-    }    
-  },
-  {
-    "Id" : "602d2149e773f2a3990b47f9",
-    "Name": "Asics Gel Rocket 8 Indoor Court Shoes",
-    "Description": "The Asics Gel Rocket 8 Indoor Court Shoes (Orange/Silver) will keep you motivated and fired up to perform at your peak in volleyball, squash and other indoor sports. Beginner and intermediate players get cutting-edge technologies at an affordable price point.This entry level all-rounder has a durable upper and offers plenty of stability.",
-    "Price": 3499,
-    "ImageFile": "images/products/asics_shoe-2.png",
-    "Summary": "Asics Gel Rocket 8 Indoor Court Shoes",
-    "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
-    },
-    "Brands": {
-      "Id":"63ca5e4c455900b990b43bc1",
-      "Name": "ASICS"
+      "Id": "63ca5e4c455900b990b43bc1",
+      "Name": "ASUS"
     }
   },
   {
-    "Id" : "602d2149e773f2a3990b47fa",
-    "Name": "Asics Gel Rocket 8 Indoor Court Shoes",
-    "Description": "The Asics Gel Rocket 8 Indoor Court Shoes (Orange/Silver) will keep you motivated and fired up to perform at your peak in volleyball, squash and other indoor sports. Beginner and intermediate players get cutting-edge technologies at an affordable price point.This entry level all-rounder has a durable upper and offers plenty of stability.",
+    "Id": "602d2149e773f2a3990b47f9",
+    "Name": "ASUS TUF Gaming F15 Laptop",
+    "Description": "The ASUS TUF Gaming F15 is built for durability and performance. Featuring an Intel Core processor and NVIDIA GeForce GTX graphics, this laptop handles gaming and everyday tasks with ease. Its robust design ensures it can withstand the rigors of daily use.",
     "Price": 3499,
-    "ImageFile": "images/products/asics_shoe-3.png",
-    "Summary": "Asics Gel Rocket 8 Indoor Court Shoes",
+    "ImageFile": "images/products/asus_tuf_gaming_f15_1.png",
+    "Summary": "Durable and reliable gaming laptop from ASUS TUF series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e4c455900b990b43bc1",
-      "Name": "ASICS"
+      "Id": "63ca5e4c455900b990b43bc1",
+      "Name": "ASUS"
     }
   },
   {
-    "Id" : "702d2149e773f2a3990b47fa",
-    "Name": "Victor SHW503 F Badminton Shoes",
-    "Description": "PU Leather, Mesh,EVA, ENERGY MAX, Nylon sheet, Rubber",
+    "Id": "602d2149e773f2a3990b47fa",
+    "Name": "ASUS ZenBook 13 OLED Ultrabook",
+    "Description": "Experience stunning visuals and exceptional portability with the ASUS ZenBook 13 OLED. This ultrabook features a vibrant OLED display, a lightweight design, and long battery life, making it perfect for professionals and students on the go.",
+    "Price": 3499,
+    "ImageFile": "images/products/asus_zenbook_13_oled_1.png",
+    "Summary": "Premium ultrabook from ASUS with a vibrant OLED display.",
+    "Types": {
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
+    },
+    "Brands": {
+      "Id": "63ca5e4c455900b990b43bc1",
+      "Name": "ASUS"
+    }
+  },
+  {
+    "Id": "702d2149e773f2a3990b47fa",
+    "Name": "MSI GE76 Raider Gaming Laptop",
+    "Description": "Unleash your gaming potential with the MSI GE76 Raider. This high-end gaming laptop features powerful Intel Core processors and NVIDIA GeForce RTX graphics for ultimate performance. Its advanced cooling and immersive display provide an unparalleled gaming experience.",
     "Price": 2392,
-    "ImageFile": "images/products/victor_shoe-1.png",
-    "Summary": "Victor SHW503 F Badminton Shoes",
+    "ImageFile": "images/products/msi_ge76_raider_1.png",
+    "Summary": "Top-tier gaming laptop from MSI's Raider series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e59065163c16451bd73",
-      "Name": "Victor"
-    }    
+      "Id": "63ca5e59065163c16451bd73",
+      "Name": "MSI"
+    }
   },
   {
-    "Id" : "802d2149e773f2a3990b47fa",
-    "Name": "Victor SHW503 F Badminton Shoes",
-    "Description": "PU Leather, Mesh,EVA, ENERGY MAX, Nylon sheet, Rubber",
+    "Id": "802d2149e773f2a3990b47fa",
+    "Name": "MSI Creator Z16 Professional Laptop",
+    "Description": "Designed for creators, the MSI Creator Z16 offers exceptional performance and stunning visuals. Featuring an Intel Core processor and NVIDIA GeForce RTX graphics, it's perfect for demanding creative tasks. Its sleek design and vibrant display make it a joy to use.",
     "Price": 3000,
-    "ImageFile": "images/products/victor_shoe-2.png",
-    "Summary": "Victor SHW503 F Badminton Shoes",
+    "ImageFile": "images/products/msi_creator_z16_1.png",
+    "Summary": "High-performance laptop designed for creative professionals by MSI.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e59065163c16451bd73",
-      "Name": "Victor"
-    } 
+      "Id": "63ca5e59065163c16451bd73",
+      "Name": "MSI"
+    }
   },
   {
-    "Id" : "902d2149e773f2a3990b47fa",
-    "Name": "Yonex Super Ace Light Badminton Shoes",
-    "Description": "Rule the game with Super Ace Light highlights Maximum shock absorption Quick compression recovery Its high resilience ensure YONEX insoles retain their shape longer Meticulously contoured for comfort Provides stability in the forefoot and toe areas technology.",
+    "Id": "902d2149e773f2a3990b47fa",
+    "Name": "DELL XPS 13 Ultrabook",
+    "Description": "The Dell XPS 13 is a premium ultrabook known for its stunning InfinityEdge display and exceptional performance. Powered by an Intel Core processor, it offers a perfect balance of power and portability, making it ideal for professionals and students.",
     "Price": 2590,
-    "ImageFile": "images/products/yonex_shoe-1.png",
-    "Summary": "Yonex Super Ace Light Badminton Shoes",
+    "ImageFile": "images/products/dell_xps_13_1.png",
+    "Summary": "Premium and portable ultrabook from Dell.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
+      "Id": "63ca5e655ec1fdc49bd9327d",
+      "Name": "DELL"
     }
   },
   {
-    "Id" : "912d2149e773f2a3990b47fa",
-    "Name": "Yonex Super Ace Light Badminton Shoes",
-    "Description": "Rule the game with Super Ace Light highlights Maximum shock absorption Quick compression recovery Its high resilience ensure YONEX insoles retain their shape longer Meticulously contoured for comfort Provides stability in the forefoot and toe areas technology.",
+    "Id": "912d2149e773f2a3990b47fa",
+    "Name": "DELL Alienware m15 R6 Gaming Laptop",
+    "Description": "Experience immersive gaming with the Dell Alienware m15 R6. Featuring powerful Intel Core processors and NVIDIA GeForce RTX graphics, this laptop delivers exceptional gaming performance. Its advanced cooling system ensures smooth and stable gameplay.",
     "Price": 3500,
-    "ImageFile": "images/products/yonex_shoe-2.png",
-    "Summary": "Yonex Super Ace Light Badminton Shoes",
+    "ImageFile": "images/products/dell_alienware_m15_r6_1.png",
+    "Summary": "High-performance gaming laptop from Dell's Alienware series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
+      "Id": "63ca5e655ec1fdc49bd9327d",
+      "Name": "DELL"
     }
   },
   {
-    "Id" : "922d2149e773f2a3990b47fa",
-    "Name": "Yonex Super Ace Light Badminton Shoes",
-    "Description": "Rule the game with Super Ace Light highlights Maximum shock absorption Quick compression recovery Its high resilience ensure YONEX insoles retain their shape longer Meticulously contoured for comfort Provides stability in the forefoot and toe areas technology.",
+    "Id": "922d2149e773f2a3990b47fa",
+    "Name": "DELL Inspiron 15 Laptop",
+    "Description": "The Dell Inspiron 15 is a versatile laptop suitable for everyday tasks and productivity. Powered by an Intel Core or AMD Ryzen processor, it offers a balance of performance and affordability. Its large display and comfortable keyboard make it ideal for work and entertainment.",
     "Price": 3700,
-    "ImageFile": "images/products/yonex_shoe-3.png",
-    "Summary": "Yonex Super Ace Light Badminton Shoes",
+    "ImageFile": "images/products/dell_inspiron_15_1.png",
+    "Summary": "Versatile and affordable laptop from Dell's Inspiron series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
+      "Id": "63ca5e655ec1fdc49bd9327d",
+      "Name": "DELL"
     }
   },
   {
-    "Id" : "932d2149e773f2a3990b47fa",
-    "Name": "Puma 19 FH Rubber Spike Cricket Shoes",
-    "Description": "With features and functions designed to withstand long hours out on the pitch, these one8 19 FH Rubber shoes have been engineered to offer comfort to cricketers",
+    "Id": "932d2149e773f2a3990b47fa",
+    "Name": "HP Spectre x360 Convertible Laptop",
+    "Description": "The HP Spectre x360 is a premium convertible laptop with a stunning design and powerful performance. Its 360-degree hinge allows you to use it in various modes, making it perfect for both work and creativity. The vibrant display and premium features enhance your experience.",
     "Price": 4999,
-    "ImageFile": "images/products/puma_shoe-1.png",
-    "Summary": "Puma 19 FH Rubber Spike Cricket Shoes",
+    "ImageFile": "images/products/hp_spectre_x360_1.png",
+    "Summary": "Premium and versatile convertible laptop from HP's Spectre series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e728c4cff9708ada2a6",
-      "Name": "Puma"
+      "Id": "63ca5e728c4cff9708ada2a6",
+      "Name": "HP"
     }
   },
   {
-    "Id" : "942d2149e773f2a3990b47fa",
-    "Name": "Puma Super Ace Light Badminton Shoes",
-    "Description": "With features and functions designed to withstand long hours out on the pitch, these one8 19 FH Rubber shoes have been engineered to offer comfort to cricketers.",
+    "Id": "942d2149e773f2a3990b47fa",
+    "Name": "HP Omen 16 Gaming Laptop",
+    "Description": "Dominate the competition with the HP Omen 16 gaming laptop. Featuring powerful Intel Core processors and NVIDIA GeForce RTX graphics, it delivers exceptional gaming performance. Its advanced cooling and high refresh rate display ensure a smooth and immersive experience.",
     "Price": 5200,
-    "ImageFile": "images/products/puma_shoe-2.png",
-    "Summary": "Puma Super Ace Light Badminton Shoes",
+    "ImageFile": "images/products/hp_omen_16_1.png",
+    "Summary": "Powerful gaming laptop from HP's Omen series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e728c4cff9708ada2a6",
-      "Name": "Puma"
+      "Id": "63ca5e728c4cff9708ada2a6",
+      "Name": "HP"
     }
   },
   {
-    "Id" : "952d2149e773f2a3990b47fa",
-    "Name": "Puma 19 FH Rubber Spike Cricket Shoes",
-    "Description": "With features and functions designed to withstand long hours out on the pitch, these one8 19 FH Rubber shoes have been engineered to offer comfort to cricketers.",
+    "Id": "952d2149e773f2a3990b47fa",
+    "Name": "HP ENVY Laptop",
+    "Description": "The HP ENVY laptop combines style and performance for everyday use. Featuring an Intel Core or AMD Ryzen processor, it offers reliable performance for work and entertainment. Its sleek design and vibrant display make it a pleasure to use.",
     "Price": 5700,
-    "ImageFile": "images/products/puma_shoe-3.png",
-    "Summary": "Puma 19 FH Rubber Spike Cricket Shoes",
+    "ImageFile": "images/products/hp_envy_1.png",
+    "Summary": "Stylish and reliable laptop from HP's ENVY series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e728c4cff9708ada2a6",
-      "Name": "Puma"
+      "Id": "63ca5e728c4cff9708ada2a6",
+      "Name": "HP"
     }
   },
   {
-    "Id" : "962d2149e773f2a3990b47fa",
-    "Name": "Babolat Shadow Spirit Mens Badminton Shoes (Cloisonne/Strike)",
-    "Description": "Babolat Shadow Spirit Mens Badminton Shoes (Cloisonne/Strike)",
+    "Id": "962d2149e773f2a3990b47fa",
+    "Name": "Lenovo ThinkPad X1 Carbon Gen 9",
+    "Description": "The Lenovo ThinkPad X1 Carbon Gen 9 is a premium business laptop known for its durability, security, and exceptional performance. Powered by an Intel Core processor, it's designed for professionals who demand the best in portability and reliability.",
     "Price": 4125,
-    "ImageFile": "images/products/babolat_shoe-1.png",
-    "Summary": "Babolat Shadow Spirit Mens Badminton Shoes (Cloisonne/Strike)",
+    "ImageFile": "images/products/lenovo_thinkpad_x1_carbon_1.png",
+    "Summary": "Premium business laptop from Lenovo's ThinkPad series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Lenovo"
     }
   },
   {
-    "Id" : "972d2149e773f2a3990b47fa",
-    "Name": "Babolat Shadow Tour Mens Badminton Shoes (White/Blue)",
-    "Description": "Babolat Shadow Tour Mens Badminton Shoes (White/Blue)",
+    "Id": "972d2149e773f2a3990b47fa",
+    "Name": "Lenovo Legion 5 Pro Gaming Laptop",
+    "Description": "Experience immersive gaming with the Lenovo Legion 5 Pro. Featuring powerful AMD Ryzen processors and NVIDIA GeForce RTX graphics, this laptop delivers excellent gaming performance. Its high refresh rate display and advanced cooling system enhance your gaming experience.",
     "Price": 5249,
-    "ImageFile": "images/products/babolat_shoe-2.png",
-    "Summary": "Babolat Shadow Tour Mens Badminton Shoes (White/Blue)",
+    "ImageFile": "images/products/lenovo_legion_5_pro_1.png",
+    "Summary": "High-performance gaming laptop from Lenovo's Legion series.",
     "Types": {
-      "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
     },
     "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Lenovo"
     }
   },
   {
-    "Id" : "982d2149e773f2a3990b47fa",
-    "Name": "Babolat Shadow Team Womens Badminton Shoes (Black/Peony)",
-    "Description": "Babolat Shadow Team Womens Badminton Shoes (Black/Peony)",
+    "Id": "982d2149e773f2a3990b47fa",
+    "Name": "Lenovo IdeaPad Flex 5 Chromebook",
+    "Description": "The Lenovo IdeaPad Flex 5 Chromebook offers versatility and affordability. With its 2-in-1 design, it's perfect for students and anyone needing a flexible device for work and entertainment. Its long battery life and Chrome OS provide a seamless experience.",
     "Price": 2999,
-    "ImageFile": "images/products/babolat_shoe-3.png",
-    "Summary": "Babolat Shadow Team Womens Badminton Shoes (Black/Peony)",
+    "ImageFile": "images/products/lenovo_ideapad_flex_5_chromebook_1.png",
+    "Summary": "Affordable and versatile Chromebook from Lenovo.",
+    "Types": {
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
+    },
+    "Brands": {
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Lenovo"
+    }
+  },
+  {
+    "Id": "992d2149e773f2a3990b47fa",
+    "Name": "GIGABYTE AERO 16 Creator Laptop",
+    "Description": "Designed for creative professionals, the GIGABYTE AERO 16 offers exceptional performance and stunning visuals. Featuring an Intel Core processor and NVIDIA GeForce RTX graphics, it's perfect for demanding creative tasks. Its color-accurate display ensures your work looks its best.",
+    "Price": 6099,
+    "ImageFile": "images/products/gigabyte_aero_16_1.png",
+    "Summary": "High-performance laptop for creators from GIGABYTE.",
+    "Types": {
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
+    },
+    "Brands": {
+      "Id": "63ca5e8d6110a9c56ee7dc48",
+      "Name": "GiGABYTE"
+    }
+  },
+  {
+    "Id": "991d2149e773f2a3990b47fa",
+    "Name": "GIGABYTE AORUS 15P Gaming Laptop",
+    "Description": "Experience high-performance gaming with the GIGABYTE AORUS 15P. Featuring powerful Intel Core processors and NVIDIA GeForce RTX graphics, this laptop delivers smooth and immersive gameplay. Its high refresh rate display and advanced cooling system enhance your gaming experience.",
+    "Price": 6399,
+    "ImageFile": "images/products/gigabyte_aorus_15p_1.png",
+    "Summary": "Powerful gaming laptop from GIGABYTE's AORUS series.",
+    "Types": {
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Laptops"
+    },
+    "Brands": {
+      "Id": "63ca5e8d6110a9c56ee7dc48",
+      "Name": "GiGABYTE"
+    }
+  },
+  {
+    "Id": "992d2149e773f2a3990b47fa",
+    "Name": "GIGABYTE M28U Gaming Monitor",
+    "Description": "Immerse yourself in gaming with the GIGABYTE M28U gaming monitor. Featuring a high refresh rate and low response time, it delivers smooth and responsive visuals. Its 4K resolution provides stunning clarity and detail for an enhanced gaming experience.",
+    "Price": 13299,
+    "ImageFile": "images/products/gigabyte_m28u_1.png",
+    "Summary": "High-performance 4K gaming monitor from GIGABYTE.",
+    "Types": {
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Monitors"
+    },
+    "Brands": {
+      "Id": "63ca5e8d6110a9c56ee7dc48",
+      "Name": "GiGABYTE"
+    }
+  },
+  {
+    "Id": "993d2149e773f2a3990b47fa",
+    "Name": "ACER Predator X28 Gaming Monitor",
+    "Description": "Experience competitive gaming with the ACER Predator X28 gaming monitor. Its high refresh rate and low response time deliver ultra-smooth visuals, giving you a competitive edge. The vibrant display and ergonomic design enhance your gaming setup.",
+    "Price": 6999,
+    "ImageFile": "images/products/acer_predator_x28_1.png",
+    "Summary": "High refresh rate gaming monitor from ACER's Predator series.",
+    "Types": {
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Monitors"
+    },
+    "Brands": {
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "ACER"
+    }
+  },
+  {
+    "Id": "994d2149e773f2a3990b47fa",
+    "Name": "ASUS ROG Swift PG279QM Gaming Monitor",
+    "Description": "The ASUS ROG Swift PG279QM is a premium gaming monitor designed for competitive play. Featuring a high refresh rate and fast response time, it delivers incredibly smooth and responsive visuals. Its advanced features and vibrant display make it a top choice for gamers.",
+    "Price": 13000,
+    "ImageFile": "images/products/asus_rog_swift_pg279qm_1.png",
+    "Summary": "Premium high refresh rate gaming monitor from ASUS ROG.",
+    "Types": {
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Monitors"
+    },
+    "Brands": {
+      "Id": "63ca5e4c455900b990b43bc1",
+      "Name": "ASUS"
+    }
+  },
+  {
+    "Id": "995d2149e773f2a3990b47fa",
+    "Name": "DELL UltraSharp U2723QE Monitor",
+    "Description": "The Dell UltraSharp U2723QE is a professional-grade monitor with stunning 4K resolution and exceptional color accuracy. Ideal for creative professionals and anyone needing crisp and detailed visuals for work or entertainment.",
+    "Price": 34000,
+    "ImageFile": "images/products/dell_ultrasharp_u2723qe_1.png",
+    "Summary": "Professional 4K monitor with excellent color accuracy from Dell.",
+    "Types": {
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Monitors"
+    },
+    "Brands": {
+      "Id": "63ca5e655ec1fdc49bd9327d",
+      "Name": "DELL"
+    }
+  },
+  {
+    "Id": "996d2149e773f2a3990b47fa",
+    "Name": "Logitech G Pro X Mechanical Keyboard",
+    "Description": "The Logitech G Pro X is a high-performance mechanical keyboard designed for competitive gaming. Featuring swappable switches, customizable lighting, and a compact tenkeyless design, it's a favorite among professional gamers.",
+    "Price": 2499,
+    "ImageFile": "images/products/logitech_g_pro_x_1.png",
+    "Summary": "High-performance mechanical gaming keyboard from Logitech.",
     "Types": {
       "Id": "63ca5d4bc3a8a58f47299f97",
-      "Name": "Shoes"
+      "Name": "Keyboards"
     },
     "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Lenovo"
     }
   },
   {
-    "Id" : "992d2149e773f2a3990b47fa",
-    "Name": "Yonex VCORE Pro 100 A Tennis Racquet (270gm, Strung)",
-    "Description": "For offensive players looking to win with game-changing spin and power.",
-    "Price": 6099,
-    "ImageFile": "images/products/yonex-racket-1.png",
-    "Summary": "Yonex VCORE Pro 100 A Tennis Racquet (270gm, Strung)",
-    "Types": {
-      "Id": "63ca5d6d958e43ee1cd375fe",
-      "Name": "Rackets"
-    },
-    "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
-    }
-  },
-  {
-    "Id" : "991d2149e773f2a3990b47fa",
-    "Name": "Yonex VCORE Pro 100 A Tennis Racquet (290gm, Strung)",
-    "Description": "For offensive players looking to win with game-changing spin and power.",
-    "Price": 6399,
-    "ImageFile": "images/products/yonex-racket-2.png",
-    "Summary": "Yonex VCORE Pro 100 A Tennis Racquet (290gm, Strung)",
-    "Types": {
-      "Id": "63ca5d6d958e43ee1cd375fe",
-      "Name": "Rackets"
-    },
-    "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
-    }
-  },
-  {
-    "Id" : "992d2149e773f2a3990b47fa",
-    "Name": "Yonex VCORE Pro 100 2019 Tennis Racquet (280gm, Unstrung)",
-    "Description": "For offensive players looking to win with game-changing spin and power.",
-    "Price": 13299,
-    "ImageFile": "images/products/yonex-racket-3.png",
-    "Summary": "Yonex VCORE Pro 100 A Tennis Racquet (290gm, Strung)",
-    "Types": {
-      "Id": "63ca5d6d958e43ee1cd375fe",
-      "Name": "Rackets"
-    },
-    "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
-    }
-  },
-  {
-    "Id" : "993d2149e773f2a3990b47fa",
-    "Name": "Babolat Boost D Tennis Racquet (260gm, Strung)",
-    "Description": "Babolat Boost D Tennis Racquet (260gm, Strung)",
-    "Price": 6999,
-    "ImageFile": "images/products/babolat-racket-1.png",
-    "Summary": "Babolat Boost D Tennis Racquet (260gm, Strung)",
-    "Types": {
-      "Id": "63ca5d6d958e43ee1cd375fe",
-      "Name": "Rackets"
-    },
-    "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
-    }
-  },
-  {
-    "Id" : "994d2149e773f2a3990b47fa",
-    "Name": "Babolat Pure Aero 2019 Superlite Tennis Racquet (Unstrung, 255gm)",
-    "Description": "Buy Babolat Pure Aero 2019 Superlite Tennis Racquet (Unstrung, 255gm) and get Free Stringing with Babolat RPM Blast String",
-    "Price": 13000,
-    "ImageFile": "images/products/babolat-racket-2.png",
-    "Summary": "Babolat Pure Aero 2019 Superlite Tennis Racquet",
-    "Types": {
-      "Id": "63ca5d6d958e43ee1cd375fe",
-      "Name": "Rackets"
-    },
-    "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
-    }
-  },
-  {
-    "Id" : "995d2149e773f2a3990b47fa",
-    "Name": "Babolat Pure Drive VS Tennis Racquet (Pair, 300gm, Strung)",
-    "Description": "Babolat Pure Drive VS Tennis Racquet (Pair, 300gm, Strung)",
-    "Price": 34000,
-    "ImageFile": "images/products/babolat-racket-3.png",
-    "Summary": "Babolat Pure Drive VS Tennis Racquet (Pair, 300gm, Strung)",
-    "Types": {
-      "Id": "63ca5d6d958e43ee1cd375fe",
-      "Name": "Rackets"
-    },
-    "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
-    }
-  },
-  {
-    "Id" : "996d2149e773f2a3990b47fa",
-    "Name": "Adidas FIFA World Cup 2018 OMB Football (White/Red/Black)",
-    "Description": "Featuring an innovative surface panel design, this is the match ball used during football's FIFA World Cup™. Inspired by Russia's urban landscapes, a pixelated graphic pays tribute to the iconic Telstar ball. Its thermally bonded seamless surface designs.",
-    "Price": 2499,
-    "ImageFile": "images/products/adidas_football-1.png",
-    "Summary": "Adidas FIFA World Cup 2018 OMB Football (White/Red/Black)",
-    "Types": {
-      "Id": "63ca5d7d380402dce7f06ebc",
-      "Name": "Football"
-    },
-    "Brands": {
-      "Id":"63ca5e40e0aa3968b549af53",
-      "Name": "Adidas"
-    } 
-  },
-  {
-    "Id" : "997d2149e773f2a3990b47fa",
-    "Name": "Adidas FIFA World Cup 2018 OMB Football",
-    "Description": "Featuring an innovative surface panel design, this is the match ball used during football's FIFA World Cup™. Inspired by Russia's urban landscapes, a pixelated graphic pays tribute to the iconic Telstar ball. Its thermally bonded seamless surface designs.",
+    "Id": "997d2149e773f2a3990b47fa",
+    "Name": "Corsair K95 RGB Platinum XT Keyboard",
+    "Description": "The Corsair K95 RGB Platinum XT is a premium mechanical keyboard with a wealth of features, including dedicated macro keys, media controls, and per-key RGB lighting. Built for both gaming and productivity.",
     "Price": 3200,
-    "ImageFile": "images/products/adidas_football-2.png",
-    "Summary": "Adidas FIFA World Cup 2018 OMB Football",
+    "ImageFile": "images/products/corsair_k95_rgb_1.png",
+    "Summary": "Premium mechanical keyboard with extensive features from Corsair.",
     "Types": {
-      "Id": "63ca5d7d380402dce7f06ebc",
-      "Name": "Football"
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Keyboards"
     },
     "Brands": {
-      "Id":"63ca5e40e0aa3968b549af53",
-      "Name": "Adidas"
-    } 
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Lenovo"
+    }
   },
   {
-    "Id" : "998d2149e773f2a3990b47fa",
-    "Name": "Adidas FIFA World Cup Top Glider Ball",
-    "Description": "Featuring an innovative surface panel design, this is the match ball used during football's FIFA World Cup™. Inspired by Russia's urban landscapes, a pixelated graphic pays tribute to the iconic Telstar ball. Its thermally bonded seamless surface designs.",
+    "Id": "998d2149e773f2a3990b47fa",
+    "Name": "Razer BlackWidow V3 Pro Wireless Keyboard",
+    "Description": "The Razer BlackWidow V3 Pro is a high-performance wireless mechanical keyboard designed for gaming. Featuring Razer's signature switches and customizable RGB lighting, it offers a premium gaming experience without the constraints of wires.",
     "Price": 2499,
-    "ImageFile": "images/products/adidas_football-3.png",
-    "Summary": "Adidas FIFA World Cup 2023 OMB Football",
+    "ImageFile": "images/products/razer_blackwidow_v3_pro_1.png",
+    "Summary": "High-performance wireless mechanical gaming keyboard from Razer.",
     "Types": {
-      "Id": "63ca5d7d380402dce7f06ebc",
-      "Name": "Football"
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Keyboards"
     },
     "Brands": {
-      "Id":"63ca5e40e0aa3968b549af53",
-      "Name": "Adidas"
-    } 
-  },
-  {
-    "Id" : "999d2149e773f2a3990b47fa",
-    "Name": "Nike Pitch Premier League Football (Yellow/Purple)",
-    "Description": "Nike Pitch Premier League Football (Yellow/Purple) Ball is made with colorful graphics that stand out on the field for easier ball tracking. A machine-stitched TPU casing delivers great touch and durability during play. ",
-    "Price": 1525,
-    "ImageFile": "images/products/Nike-Football-1.png",
-    "Summary": "Nike Pitch Premier League Football (Yellow/Purple)",
-    "Types": {
-      "Id": "63ca5d7d380402dce7f06ebc",
-      "Name": "Football"
-    },
-    "Brands": {
-      "Id":"63ca5e7ec90ff5c8f44d5ac8",
-      "Name": "Nike"
+      "Id": "63ca5e59065163c16451bd73",
+      "Name": "MSI"
     }
   },
   {
-    "Id" : "99912149e773f2a3990b47fa",
-    "Name": "Nike Manchester City Supporters Football (Berry)",
-    "Description": "Nike Manchester City Supporters Football (Berry) Ball is made with colorful graphics that stand out on the field for easier ball tracking. A machine-stitched TPU casing delivers great touch and durability during play. ",
+    "Id": "999d2149e773f2a3990b47fa",
+    "Name": "Logitech MX Master 3S Wireless Mouse",
+    "Description": "The Logitech MX Master 3S is a premium wireless mouse designed for productivity and comfort. Featuring an ergonomic design, precise tracking, and customizable buttons, it's perfect for professionals and power users.",
     "Price": 1525,
-    "ImageFile": "images/products/Nike-Football-2.png",
-    "Summary": "Nike Manchester City Supporters Football (Berry)",
+    "ImageFile": "images/products/logitech_mx_master_3s_1.png",
+    "Summary": "Premium wireless productivity mouse from Logitech.",
     "Types": {
-      "Id": "63ca5d7d380402dce7f06ebc",
-      "Name": "Football"
+      "Id": "63ca5d6d958e43ee1cd375fe",
+      "Name": "Mice"
     },
     "Brands": {
-      "Id":"63ca5e7ec90ff5c8f44d5ac8",
-      "Name": "Nike"
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Lenovo"
     }
   },
   {
-    "Id" : "99922149e773f2a3990b47fa",
-    "Name": "Nike Mercurial Veer Football (White/Green/Black)",
-    "Description": "Nike Mercurial Veer Football (White/Green/Black) Ball is made with colorful graphics that stand out on the field for easier ball tracking. A machine-stitched TPU casing delivers great touch and durability during play. ",
+    "Id": "99912149e773f2a3990b47fa",
+    "Name": "Razer DeathAdder V2 Pro Wireless Mouse",
+    "Description": "The Razer DeathAdder V2 Pro is a high-performance wireless gaming mouse known for its ergonomic design and precise tracking. It's a popular choice among competitive gamers for its comfort and responsiveness.",
+    "Price": 1525,
+    "ImageFile": "images/products/razer_deathadder_v2_pro_1.png",
+    "Summary": "High-performance wireless gaming mouse from Razer.",
+    "Types": {
+      "Id": "63ca5d6d958e43ee1cd375fe",
+      "Name": "Mice"
+    },
+    "Brands": {
+      "Id": "63ca5e59065163c16451bd73",
+      "Name": "MSI"
+    }
+  },
+  {
+    "Id": "99922149e773f2a3990b47fa",
+    "Name": "Corsair Sabre RGB Pro Champion Series Mouse",
+    "Description": "The Corsair Sabre RGB Pro Champion Series is a lightweight gaming mouse designed for competitive play. Its ergonomic shape and precise tracking ensure comfortable and accurate movements during intense gaming sessions.",
     "Price": 1450,
-    "ImageFile": "images/products/Nike-Football-3.png",
-    "Summary": "Nike Mercurial Veer Football (White/Green/Black)",
+    "ImageFile": "images/products/corsair_sabre_rgb_pro_1.png",
+    "Summary": "Lightweight gaming mouse for competitive play from Corsair.",
+    "Types": {
+      "Id": "63ca5d6d958e43ee1cd375fe",
+      "Name": "Mice"
+    },
+    "Brands": {
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Lenovo"
+    }
+  },
+  {
+    "Id": "99932149e773f2a3990b47fa",
+    "Name": "HP M27fq Monitor",
+    "Description": "The HP M27fq is a stylish and affordable monitor perfect for everyday use. Featuring a crisp QHD display and slim design, it's ideal for both work and entertainment.",
+    "Price": 4550,
+    "ImageFile": "images/products/hp_m27fq_1.png",
+    "Summary": "Stylish and affordable QHD monitor from HP.",
     "Types": {
       "Id": "63ca5d7d380402dce7f06ebc",
-      "Name": "Football"
+      "Name": "Monitors"
     },
     "Brands": {
-      "Id":"63ca5e7ec90ff5c8f44d5ac8",
-      "Name": "Nike"
+      "Id": "63ca5e728c4cff9708ada2a6",
+      "Name": "HP"
     }
   },
   {
-    "Id" : "99932149e773f2a3990b47fa",
-    "Name": "Babolat Team Line Racket 12 Kit Bag (Fluorescent Red)",
-    "Description": "The Babolat Team Line racquet bag is highly durable and fashionable, holding up to 12 racquets.",
-    "Price": 4550,
-    "ImageFile": "images/products/babolat-kitback-1.png",
-    "Summary": "Babolat Team Line Racket 12 Kit Bag (Fluorescent Red)",
-    "Types": {
-      "Id": "63ca5d8849bc19321b8be5f1",
-      "Name": "Kit Bags"
-    },
-    "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
-    }
-  },
-  {
-    "Id" : "99942149e773f2a3990b47fa",
-    "Name": "Babolat Pure Strike RH X12 Kit Bag (White/Red)",
-    "Description": "Babolat Pure Strike 12-Pack Bag will effortlessly hold the majority of the rigging you should be fruitful on the court",
+    "Id": "99942149e773f2a3990b47fa",
+    "Name": "DELL S2721QS Monitor",
+    "Description": "The Dell S2721QS is a 4K monitor offering stunning visuals and a sleek design. Its vibrant display and wide viewing angles make it great for both productivity and entertainment.",
     "Price": 9799,
-    "ImageFile": "images/products/babolat-kitback-2.png",
-    "Summary": "Babolat Pure Strike RH X12 Kit Bag (White/Red)",
+    "ImageFile": "images/products/dell_s2721qs_1.png",
+    "Summary": "Sleek 4K monitor for productivity and entertainment from Dell.",
     "Types": {
-      "Id": "63ca5d8849bc19321b8be5f1",
-      "Name": "Kit Bags"
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Monitors"
     },
     "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
-    }
-  },
-  {
-    "Id" : "99952149e773f2a3990b47fa",
-    "Name": "Babolat Team Line 12 Racquet Kit Bag (Silver)",
-    "Description": "Babolat Team Line 12 Racquet Kit Bag (Silver) for players who have tennis in their blood, Babolat brings you the Babolat Tennis Kit Bag India - Babolat Team Line Red 12 Pack.",
-    "Price": 4550,
-    "ImageFile": "images/products/babolat-kitback-3.png",
-    "Summary": "Babolat Team Line 12 Racquet Kit Bag (Silver)",
-    "Types": {
-      "Id": "63ca5d8849bc19321b8be5f1",
-      "Name": "Kit Bags"
-    },
-    "Brands": {
-      "Id":"63ca5e8d6110a9c56ee7dc48",
-      "Name": "Babolat"
-    }
-  },
-  {
-    "Id" : "99962149e773f2a3990b47fa",
-    "Name": "Yonex SUNR 4826TK BT6-SR Badminton Kit Bag (Black/Red/White)",
-    "Description": "Yonex SUNR 4826TK BT6-SR Badminton Kit Bag (Black/Red/White)",
-    "Price": 1999,
-    "ImageFile": "images/products/yonex-kitback-1.png",
-    "Summary": "Yonex SUNR 4826TK BT6-SR Badminton Kit Bag (Black/Red/White)",
-    "Types": {
-      "Id": "63ca5d8849bc19321b8be5f1",
-      "Name": "Kit Bags"
-    },
-    "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
-    }
-  },
-  {
-    "Id" : "99972149e773f2a3990b47fa",
-    "Name": "Yonex SUNR LRB05 MS BT6 S Badminton Kit Bag (Blue/Red)",
-    "Description": "Yonex SUNR LRB05 MS BT6 S Badminton Kit Bag (Blue/Red)",
-    "Price": 1499,
-    "ImageFile": "images/products/yonex-kitback-2.png",
-    "Summary": "Yonex SUNR LRB05 MS BT6 S Badminton Kit Bag (Blue/Red)",
-    "Types": {
-      "Id": "63ca5d8849bc19321b8be5f1",
-      "Name": "Kit Bags"
-    },
-    "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
-    }
-  },
-  {
-    "Id" : "99982149e773f2a3990b47fa",
-    "Name": "Yonex SUNR LRB05 MS BT6 S Badminton Kit Bag (Grey/Orange)",
-    "Description": "Yonex SUNR LRB05 MS BT6 S Badminton Kit Bag (Grey/Orange)",
-    "Price": 1499,
-    "ImageFile": "images/products/yonex-kitback-3.png",
-    "Summary": "Yonex SUNR LRB05 MS BT6 S Badminton Kit Bag (Grey/Orange)",
-    "Types": {
-      "Id": "63ca5d8849bc19321b8be5f1",
-      "Name": "Kit Bags"
-    },
-    "Brands": {
-      "Id":"63ca5e655ec1fdc49bd9327d",
-      "Name": "Yonex"
+      "Id": "63ca5e655ec1fdc49bd9327d",
+      "Name": "DELL"
     }
   }
 ]
