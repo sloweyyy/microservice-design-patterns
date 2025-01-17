@@ -23,6 +23,7 @@ public class BasketOrderingConsumerV2 : IConsumer<BasketCheckoutEventV2>
     {
         using var scope = _logger.BeginScope("Consuming Basket Checkout Event for {correlationId} with version 2",
             context.Message.CorrelationId);
+        _logger.LogInformation("Basket Checkout Event Consumed: {Event}", context.Message);
         var cmd = _mapper.Map<CheckoutOrderCommandV2>(context.Message);
         var result = await _mediator.Send(cmd);
         _logger.LogInformation("Basket Checkout Event completed with version 2!!!");

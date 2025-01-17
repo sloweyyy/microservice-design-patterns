@@ -66,6 +66,8 @@ public class BasketController : ApiController
         var basket = await _mediator.Send(query);
         if (basket == null) return BadRequest();
 
+        // When a checkout happens in BasketController, it publishes an event using MassTransit:
+
         var eventMsg = BasketMapper.Mapper.Map<BasketCheckoutEvent>(basketCheckout);
         eventMsg.TotalPrice = basket.TotalPrice;
         await _publishEndpoint.Publish(eventMsg);

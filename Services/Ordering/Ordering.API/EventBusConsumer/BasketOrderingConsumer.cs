@@ -24,6 +24,8 @@ public class BasketOrderingConsumer : IConsumer<BasketCheckoutEvent>
     {
         using var scope = _logger.BeginScope("Consuming Basket Checkout Event for {correlationId}",
             context.Message.CorrelationId);
+
+        _logger.LogInformation("Basket Checkout Event Consumed: {Event}", context.Message);
         var cmd = _mapper.Map<CheckoutOrderCommand>(context.Message);
         var result = await _mediator.Send(cmd);
         _logger.LogInformation("Basket Checkout Event completed!!!");

@@ -48,19 +48,19 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Ordering.API", Version = "v1" });
 });
 
-//Mass Transit
+// Mass Transit
 builder.Services.AddMassTransit(config =>
 {
-    //Mark this as consumer
+    // Mark this as consumer
     config.AddConsumer<BasketOrderingConsumer>();
     config.AddConsumer<BasketOrderingConsumerV2>();
     config.UsingRabbitMq((ctx, cfg) =>
     {
         cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
-        //provide the queue name with cosumer settings
+        // provide the queue name with cosumer settings
         cfg.ReceiveEndpoint(EventBusConstant.BasketCheckoutQueue,
             c => { c.ConfigureConsumer<BasketOrderingConsumer>(ctx); });
-        //V2 Version
+        // V2 Version
         cfg.ReceiveEndpoint(EventBusConstant.BasketCheckoutQueueV2,
             c => { c.ConfigureConsumer<BasketOrderingConsumerV2>(ctx); });
     });
