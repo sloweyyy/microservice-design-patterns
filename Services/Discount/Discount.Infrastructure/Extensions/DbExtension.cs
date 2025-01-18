@@ -33,7 +33,7 @@ public static class DbExtension
         return host;
     }
 
-    private static void ApplyMigrations(IConfiguration config)
+    public static void ApplyMigrations(IConfiguration config)
     {
         var retry = 5;
         while (retry > 0)
@@ -41,26 +41,45 @@ public static class DbExtension
             {
                 using var connection =
                     new NpgsqlConnection(config.GetValue<string>("DatabaseSettings:ConnectionString"));
+
+                var builder = new NpgsqlConnectionStringBuilder(config.GetValue<string>("DatabaseSettings:ConnectionString"));
+                var dbName = builder.Database;
+                builder.Database = "postgres";
+
+                using (var masterConnection = new NpgsqlConnection(builder.ConnectionString))
+                {
+                    masterConnection.Open();
+                    using (var checkCmd = new NpgsqlCommand($"SELECT 1 FROM pg_database WHERE datname = '{dbName}'", masterConnection))
+                    {
+                        var exists = checkCmd.ExecuteScalar() != null;
+                        if (!exists)
+                        {
+                            using var createCmd = new NpgsqlCommand($"CREATE DATABASE \"{dbName}\"", masterConnection);
+                            createCmd.ExecuteNonQuery();
+                        }
+                    }
+                }
+
                 connection.Open();
-                using var cmd = new NpgsqlCommand
+                using var migrationCmd = new NpgsqlCommand
                 {
                     Connection = connection
                 };
-                cmd.CommandText = "DROP TABLE IF EXISTS Coupon";
-                cmd.ExecuteNonQuery();
-                cmd.CommandText = @"CREATE TABLE Coupon(Id SERIAL PRIMARY KEY, 
-                                                    ProductName VARCHAR(500) NOT NULL,
-                                                    Description TEXT,
-                                                    Amount INT)";
-                cmd.ExecuteNonQuery();
+                migrationCmd.CommandText = "DROP TABLE IF EXISTS Coupon";
+                migrationCmd.ExecuteNonQuery();
+                migrationCmd.CommandText = @"CREATE TABLE Coupon(Id SERIAL PRIMARY KEY, 
+                                                ProductName VARCHAR(500) NOT NULL,
+                                                Description TEXT,
+                                                Amount INT)";
+                migrationCmd.ExecuteNonQuery();
 
-                cmd.CommandText =
-                    "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('Adidas Quick Force Indoor Badminton Shoes', 'Shoe Discount', 500);";
-                cmd.ExecuteNonQuery();
+                migrationCmd.CommandText =
+                    "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('ASUS ZenBook 13 OLED Ultrabook', 'Laptop Discount', 500);";
+                migrationCmd.ExecuteNonQuery();
 
-                cmd.CommandText =
-                    "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('Yonex VCORE Pro 100 A Tennis Racquet (270gm, Strung)', 'Racquet Discount', 700);";
-                cmd.ExecuteNonQuery();
+                migrationCmd.CommandText =
+                    "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('ASUS ROG Zephyrus G14 Gaming Laptop', 'Laptop Discount', 700);";
+                migrationCmd.ExecuteNonQuery();
                 // Exit loop if successful
                 break;
             }

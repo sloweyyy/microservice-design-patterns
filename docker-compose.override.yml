@@ -116,8 +116,7 @@ services:
        discountdb:
          condition: service_healthy
     ports:
-      - "8002:80"  
-      - "8012:81" 
+      - "8002:8080"
 
   ordering.api:
     container_name: ordering.api

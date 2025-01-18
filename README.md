@@ -152,8 +152,8 @@ Each service has its own:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ecommerce-microservices.git
-cd ecommerce-microservices
+git clone https://github.com/sloweyyy/microservice-design-patterns.git
+cd microservice-design-patterns
 ```
 
 2. Configure Docker resources:
@@ -191,8 +191,8 @@ docker-compose up
   - Password: guest
 - Portainer: http://localhost:9000
 - pgAdmin: http://localhost:5050
-  - Email: admin@example.com
-  - Password: example@123
+  - Email: admin@eCommerce.net
+  - Password: Password@1
 
 ## Project Structure
 
