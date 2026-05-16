@@ -1,9 +1,18 @@
 > [!IMPORTANT]
 > **This repository is the foundation for a newer, actively maintained project.**
 >
-> Development has moved to **[cloud-native-ecommerce-platform](https://github.com/sloweyyy/cloud-native-ecommerce-platform)**, which builds on this codebase with .NET 8 upgrades, React/Nx microfrontends, expanded data stores (MongoDB, Redis, PostgreSQL, SQL Server), RabbitMQ, an Ocelot API gateway, and Kubernetes-ready deployments.
+> Development has moved to **[cloud-native-ecommerce-platform](https://github.com/sloweyyy/cloud-native-ecommerce-platform)**, which builds on this codebase and now ships:
 >
-> Please head over to the new repo for the latest features, fixes, and documentation: **<https://github.com/sloweyyy/cloud-native-ecommerce-platform>**
+> - **.NET 10 LTS** across all services (supported through 2028-11)
+> - **React + Nx Module Federation** microfrontends (the original Angular UI lives on under `/client`)
+> - **AWS EKS** deployment provisioned via **Terraform**, fronted by **Istio** service mesh with mTLS
+> - **Riok.Mapperly** (source-generated mapping) and an in-house mediator replacing AutoMapper and MediatR — the original library versions had a HIGH-severity CVE and moved to commercial licensing
+> - Expanded data stores: MongoDB, Redis, PostgreSQL, SQL Server, AWS S3
+> - **RabbitMQ + MassTransit 8.x** event bus, **Ocelot** API gateway
+> - **OpenTelemetry + Jaeger** tracing, **Prometheus + Grafana** metrics, **ELK** logs
+> - **Central Package Management** with transitive pinning, zero known CVE warnings on restore
+>
+> Head over to the new repo for the latest features, fixes, and documentation: **<https://github.com/sloweyyy/cloud-native-ecommerce-platform>**
 
 ---
 
