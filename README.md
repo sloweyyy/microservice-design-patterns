@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **This repository is the foundation for a newer, actively maintained project.**
+>
+> Development has moved to **[cloud-native-ecommerce-platform](https://github.com/sloweyyy/cloud-native-ecommerce-platform)**, which builds on this codebase with .NET 8 upgrades, React/Nx microfrontends, expanded data stores (MongoDB, Redis, PostgreSQL, SQL Server), RabbitMQ, an Ocelot API gateway, and Kubernetes-ready deployments.
+>
+> Please head over to the new repo for the latest features, fixes, and documentation: **<https://github.com/sloweyyy/cloud-native-ecommerce-platform>**
+
+---
+
 # .NET Core Microservices E-commerce Project
 
 ## Overview
